@@ -1,0 +1,60 @@
+/* ===== PERSONA 5 PORTFOLIO - GLOBAL STYLES ===== */
+
+/* CSS Variables - Single Source of Truth */
+:root {
+  --p5-red: #ff0022;
+  --p5-cyan: #00ffff;
+  --p5-black: #000000;
+  --p5-white: #ffffff;
+  --p5-dark-red: #cc0000;
+  --p5-gray: #1a1a1a;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--p5-black);
+  overflow: hidden;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--p5-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--p5-red);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--p5-dark-red);
+}
+
+/* Selection Styling */
+::selection {
+  background: var(--p5-red);
+  color: var(--p5-white);
+}
