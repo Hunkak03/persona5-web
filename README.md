@@ -86,32 +86,7 @@ This project showcases modern React patterns, context-based state management, an
 | **SFX Toggle** | Enable/disable sound effects |
 | **BGM Toggle** | Enable/disable background music |
 | **Keyboard Controls** | ESC to navigate back |
-| **State Persistence** | Settings saved via Context API |
-
----
-
-## 📸 Screenshots
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│   ╔═══════════════════════════════════════════════════╗ │
-│   ║                                                   ║ │
-│   ║          PERSONA 5 MENU SYSTEM                    ║ │
-│   ║                                                   ║ │
-│   ║   > ITEMS     [Animated red highlight]            ║ │
-│   ║     SKILLS                                        ║ │
-│   ║     PERSONA                                       ║ │
-│   ║     STATUS                                        ║ │
-│   ║     SYSTEM                                        ║ │
-│   ║                                                   ║ │
-│   ║   [Video Background]                              ║ │
-│   ║   [Animated Transitions]                          ║ │
-│   ║                                                   ║ │
-│   ╚═══════════════════════════════════════════════════╝ │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+| **Settings Persistence** | Settings saved locally via Context |
 
 ---
 
